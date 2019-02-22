@@ -9,7 +9,7 @@ namespace newdisplay {
     let buf = control.createBuffer(32);
     //% help=serial/write-buff
     //% weight=86
-    //% blockId=serial_writexy block="xs|write xy x %x | y %y "
+    //% blockId=serial_writexy block="xs|write xy x %x=1 | y %y=1 "
     export function write_xy(x: number,y:number): void {
         //if (!values) return;
         let temp=0;
