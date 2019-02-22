@@ -1,6 +1,6 @@
 # newdisplay
 
-haoda bit display
+haoda display for microbit
 
 ## TODO
 

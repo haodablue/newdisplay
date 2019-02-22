@@ -1,14 +1,15 @@
 {
     "name": "newdisplay",
     "version": "0.0.0",
-    "description": "haoda bit display",
+    "description": "haoda display for microbit",
     "dependencies": {
         "core": "*",
         "radio": "*"
     },
     "files": [
+        "main.ts",
         "README.md",
-        "main.ts"
+        "newdisplay.ts"
     ],
     "testFiles": [
         "test.ts"
