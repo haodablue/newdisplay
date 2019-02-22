@@ -1,5 +1,4 @@
-//% weight=2 color=#002050 icon="\uf00a"
-//% advanced=true
+//% weight=100 color=#006d19 icon="\uf00a" 
 
 namespace newdisplay {
     /**
