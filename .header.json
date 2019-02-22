@@ -1,0 +1,19 @@
+{
+    "target": "microbit",
+    "targetVersion": "1.2.18",
+    "name": "newdisplay",
+    "meta": {},
+    "editor": "tsprj",
+    "pubId": "",
+    "pubCurrent": false,
+    "_rev": null,
+    "id": "8f3c182a-036f-4b15-8644-a0ae68e1be51",
+    "recentUse": 1550799920,
+    "modificationTime": 1550799330,
+    "blobId": null,
+    "blobVersion": null,
+    "blobCurrent": false,
+    "isDeleted": false,
+    "path": "newdisplay",
+    "githubCurrent": false
+}
