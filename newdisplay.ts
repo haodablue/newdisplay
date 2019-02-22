@@ -6,9 +6,9 @@ namespace newdisplay {
      * @param value to send over serial
      */
     let buf = control.createBuffer(32);
-    //% help=serial/write-buff
+    //% help=xs/write-buff
     //% weight=86
-    //% blockId=serial_writexy block="xs|write xy x %x=1 | y %y=1 "
+    //% blockId=xs_writexy block="xs|write xy x %x=1 | y %y=1 "
     export function write_xy(x: number,y:number): void {
         //if (!values) return;
         let temp=0;
@@ -41,9 +41,9 @@ namespace newdisplay {
 		}
     }
 	
-    //% help=serial/write-clear
+    //% help=xs/write-clear
     //% weight=86
-    //% blockId=serial_writeclear block="xs|clear buff "
+    //% blockId=xs_writeclear block="xs|clear buff "
     export function writeclear(): void {
         //if (!values) return;
 
@@ -56,9 +56,9 @@ namespace newdisplay {
 
     }
 	
-	//% help=serial/write-buff
+	//% help=xs/write-buff
     //% weight=86
-    //% blockId=serial_writebuff block="xs|write buff "
+    //% blockId=xs_writebuff block="xs|write buff "
     export function writeBuff(): void {
         //if (!values) return;
 
